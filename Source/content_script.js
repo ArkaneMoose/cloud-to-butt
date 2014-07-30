@@ -1,3 +1,4 @@
+document.title = handleText(document.createTextNode(document.title));
 walk(document.body);
 
 function walk(node) 
@@ -65,6 +66,7 @@ function handleText(textNode) {
     }
   }
 	textNode.nodeValue = v;
+	return v;
 }
 
 
