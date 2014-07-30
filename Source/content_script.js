@@ -41,10 +41,10 @@ function handleText(textNode) {
     return m + "y " + b + "utt";
   });
   
-  // Deal with big data
-  v = v.replace(/\b(B|b)ig (D|d)ata/g, function(match, b, p1, offset, string) {
+  // Deal with data
+  v = v.replace(/\b(D|d)ata/gi, function(match, p1, offset, string) {
     var p = String.fromCharCode(p1.charCodeAt(0) + 12);
-    return b + "ig " + p + "oop";
+    return p + "oop";
   });
 
   // Deal with private clouds
