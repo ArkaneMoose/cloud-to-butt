@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "Cloud To Butt Plus",
 	"version": "1.2",
-	"description": "Replaces the text 'the cloud' with 'my butt', as well as 'cloud' with 'butt' in certain contexts.",
+	"description": "Replaces the text 'the cloud' with 'my butt', as well as 'cloud' with 'butt' in certain contexts, and 'big data' with 'big poop'.",
 	"content_scripts": 
 	[
 		{
