@@ -43,7 +43,7 @@ function handleText(textNode) {
   
   // Deal with big data
   v = v.replace(/\b(B|b)ig (D|d)ata/g, function(match, b, p1, offset, string) {
-    var d = String.fromCharCode(p1.charCodeAt(0) + 12);
+    var p = String.fromCharCode(p1.charCodeAt(0) + 12);
     return b + "ig " + p + "oop";
   });
 
