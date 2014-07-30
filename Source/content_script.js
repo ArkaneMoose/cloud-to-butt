@@ -1,5 +1,9 @@
 document.title = handleText(document.createTextNode(document.title));
 walk(document.body);
+setInterval(function () {
+	document.title = handleText(document.createTextNode(document.title));
+	walk(document.body);
+}, 2000); // Refresh every 2 seconds
 
 function walk(node) 
 {
